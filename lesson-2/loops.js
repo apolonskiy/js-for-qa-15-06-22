@@ -1,9 +1,9 @@
 // Loops
-console.log('Some expression');
-console.log('Some expression');
-console.log('Some expression');
-console.log('Some expression');
-console.log('Some expression');
+console.log('Some expression1');
+console.log('Some expression2');
+console.log('Some expression3');
+console.log('Some expression4');
+console.log('Some expression5');
 // Do not repeat an actions
 
 

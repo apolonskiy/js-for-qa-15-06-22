@@ -135,7 +135,7 @@ console.log(false || 1 || 2);
 
 // Anything that is not falsy -> Thruthy
 
-let loginPage = '/login'; // undefined
+let loginPage = getUtl(); // undefined
 let defaultPage = '/some-default-page';
 
 let currentPage = loginPage || defaultPage;
