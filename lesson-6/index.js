@@ -255,20 +255,20 @@ const asyncFun = async (city) => {
 asyncFun('London')
 
 
-import axios from 'axios';
+// import axios from 'axios';
 
-const getSmth = async () => {
-  return axios.get('utl', 'query')
-}
+// const getSmth = async () => {
+//   return axios.get('utl', 'query')
+// }
 
 
-//....... other file
+// //....... other file
 
-import 'myApiClient' from '../apiClient';
-const apiClient = myApiClient();
- describe('name of test suit', () => {
-  test('name of test', async () => {
-    const result = await apiClient.getSmth();
-    expect(result.statusCode).toBe(200);
-  })
-})
+// import 'myApiClient' from '../apiClient';
+// const apiClient = myApiClient();
+//  describe('name of test suit', () => {
+//   test('name of test', async () => {
+//     const result = await apiClient.getSmth();
+//     expect(result.statusCode).toBe(200);
+//   })
+// })
