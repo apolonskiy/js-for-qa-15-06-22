@@ -6,7 +6,10 @@ let human1 = {
     head: 1,
     name: "Mykola",
     favoriteFood: "Borsht",
-    hoursOfSleep: Null
+    hoursOfSleep: Null,
+    func() {
+      console.log(this)
+    }
   };
   
   let human2 = {

@@ -82,38 +82,44 @@
 // console.log(phraseParagraph);
 
 // Bolleans
-let truth = true;
-let lie = false;
+// let truth = true;
+// let lie = false;
 
-// Null (empty box)
-let nothing = null;
-console.log(nothing)
+// // Null (empty box)
+// let nothing = null;
+// console.log(nothing)
 
-console.log(undefined)
+// console.log(undefined)
 
-// Undefined means the variable has been declared, but it has not yet been assigned a value
-let emptiness;
-console.log(emptiness) // Undifined
+// // Undefined means the variable has been declared, but it has not yet been assigned a value
+// let emptiness;
+// console.log(emptiness) // Undifined
 
-// typeof 
-console.log(typeof undefined); // undefined
+// // typeof 
+// console.log(typeof undefined); // undefined
 
-console.log(typeof 1); // number
+// console.log(typeof 1); // number
 
-console.log(typeof true); // boolean
+// console.log(typeof true); // boolean
 
-console.log(typeof 'str'); // string
+// console.log(typeof 'str'); // string
 
-console.log(typeof Math); // object
+// console.log(typeof Math); // object
 
-console.log(Math.pow(3, 3))
+// console.log(Math.pow(3, 3))
 
-console.log('str'.concat('moreStr'))
+// console.log('str'.concat('moreStr'))
 
-typeof []; // object
+// typeof []; // object
 
-console.log(typeof Array(3, 1,2))
+// console.log(typeof Array(3, 1,2))
 
-console.log(typeof null); // object
+// console.log(typeof null); // object
 
-console.log(typeof console.log); //function
+// console.log(typeof console.log); //function
+
+
+function numberToString(num) {
+    return String(num)
+  }
+

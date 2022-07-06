@@ -10,6 +10,10 @@ export const dc = (hero) => {
   console.log(`Bye, ${hero}!`);
 }
 
+const definedAbove = () => console.log('definedAbove');
+
+export {definedAbove};
+
 const defaultFunc = () => 'Im Default';
 
 export default defaultFunc;

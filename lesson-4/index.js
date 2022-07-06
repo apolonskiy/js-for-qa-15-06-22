@@ -225,22 +225,24 @@
 // console.log(arr)
 
 
-try {
-    console.log("Start of try runs");
-    nonvariable; // error, variable is not defined!
-    console.log("End of try (never reached)"); // try block interupted, so this never be executed
-  } catch (error) {
-    console.log(`Error has occured!`);
-    console.log(error)
-    if(error = ''){
-        throw new Error('1')
-    }
-    throw new Error(error)
-  } 
-  console.log("...Then the execution continues");
+// try {
+//     console.log("Start of try runs");
+//     nonvariable; // error, variable is not defined!
+//     console.log("End of try (never reached)"); // try block interupted, so this never be executed
+//   } catch (error) {
+//     console.log(`Error has occured!`);
+//     console.log(error)
+//     if(error = ''){
+//         throw new Error('1')
+//     }
+//     throw new Error('This does not work')
+//   } finally {
+//         console.log('ANWAYS')
+//   }
+//   console.log("...Then the execution continues");
 
 
-// //   try {
+//   try {
 //       const resp = axiosCallGetUser('userID')
 //       return resp.status
 //   } catch(error){
